@@ -11,4 +11,5 @@ class Dog
 end
 
 dog = Dog.new("Kingsley")
+dog.name
 dog.breed= "morkie"
