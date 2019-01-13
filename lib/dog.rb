@@ -5,6 +5,6 @@ class Dog
   end
 end
 
-kingsley = Dog.new
+
 
 
