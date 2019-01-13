@@ -1,15 +1,14 @@
 class Person
-  def initialize (name, job)
-    @name = Andranique
-    @job = future_developer
+  def initialize(name)
+    @name = name
   end
-  def Andranique
+  def name
     @name
   end
-  def future_developer
-    @job
+  def job=(job)
+    @bjob = job
   end
 end
 
-Person.name
-Person.job
+person = Person.new("Andranique")
+person.job= "future programer"
