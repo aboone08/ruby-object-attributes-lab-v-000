@@ -6,11 +6,11 @@ class Dog
   def name
     @name
   end
-  def breed=(breed)
-   
+  def breed
+    @breed 
   end
 end
 
-dog = Dog.new("Kingsley")
-dog.name
-dog.breed= "morkie"
+kingsley = Dog.name 
+morkie = Dog.breed 
+
