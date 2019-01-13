@@ -10,3 +10,5 @@ class Dog
     @breed
   end
 end
+Dog.name
+Dog.breed
